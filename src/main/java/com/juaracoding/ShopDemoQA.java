@@ -69,7 +69,7 @@ public class ShopDemoQA {
     }
     public static void delay(){
         try {
-            Thread.sleep(5000);  // Delay 3 second
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
